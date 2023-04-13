@@ -44,7 +44,6 @@ stages:
           targetType: 'inline'
           script: |
             # Windows
-            .env\scripts\activate
             pip install --target="./.python_packages/lib/site-packages" -r ./requirements.txt
             $env:FLASK_APP = "hello_app.webapp"
             python -m flask run
