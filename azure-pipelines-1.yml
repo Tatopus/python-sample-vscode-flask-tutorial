@@ -35,7 +35,7 @@ stages:
           pytest
         displayName: 'pytest'
 
-    - job: 'Setup2 Use python 3.8'
+    - job: 'Setup2_Use_python_38'
       pool:
         vmImage: ubuntu-latest
       strategy:
